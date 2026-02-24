@@ -1,0 +1,57 @@
+# --- Entornos Virtuales ---
+.venv/
+venv/
+env/
+bin/
+lib/
+include/
+share/
+pyvenv.cfg
+
+# --- Cache y Compilación de Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Distribución / Empaquetado ---
+dist/
+build/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+manifest
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- Tests y Cobertura ---
+htmlcov/
+.tox/
+.nosetests.config
+.pytest_cache/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+.conan/
+
+# --- Variables de Entorno (¡IMPORTANTE: Seguridad!) ---
+.env
+.venv
+*.env
+*.vars
+
+# --- Logs y Bases de Datos locales ---
+*.log
+*.sqlite
+*.db
+
+# --- Configuración de Editores (Opcional pero recomendado) ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
