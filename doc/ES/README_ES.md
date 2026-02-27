@@ -52,7 +52,7 @@ Para que tus hechizos sean aceptados por el gremio, debes seguir estas estrictas
 
 ### Resumen de los Ejercicios
 
-####  Lambda Sanctum
+#### 0. Lambda Sanctum
 Domina las funciones de una sola línea. Aprenderás a ordenar artefactos por poder, filtrar magos por nivel y transformar listas de hechizos usando `map` y `filter`.
 
 #### 1. Higher Realm

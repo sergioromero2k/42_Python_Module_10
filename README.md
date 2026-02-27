@@ -49,7 +49,7 @@ For your spells to be accepted by the guild, you must follow these strict guidel
 
 ### Exercise Overview
 
-#### Lambda Sanctum
+#### 0. Lambda Sanctum
 Master single-line functions. You will learn to sort artifacts by power, filter mages by level, and transform spell lists using `map` and `filter`.
 
 #### 1. Higher Realm
