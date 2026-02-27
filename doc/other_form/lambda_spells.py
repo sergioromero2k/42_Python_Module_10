@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from data_generator import FuncMageDataGenerator
+from dgenerator import FuncMageDataGenerator
 
 
 def artifact_sorter(artifacts: list[dict]) -> list[dict]:

@@ -1,82 +1,81 @@
 # 42_Python_Module_10
-42_Python_Module_10
 
-## FuncMage Chronicles: El Camino de la Programación Funcional
+## FuncMage Chronicles: The Path of Functional Programming
 
-Bienvenido a **FuncMage**. 
-
-En el año 2142, el reino digital está en caos y solo los magos de las funciones pueden restaurar el equilibrio mediante el dominio de las artes antiguas de Python.
+Welcome to **FuncMage**. In the year 2142, the digital kingdom is in chaos and only function mages can restore balance through mastery of the ancient arts of Python.
 
 ---
 
-### Reglas de la Alianza (Normas y Estilo)
+### Alliance Rules (Standards & Style)
 
-Para que tus hechizos sean aceptados por el gremio, debes seguir estas estrictas directrices:
+For your spells to be accepted by the guild, you must follow these strict guidelines:
 
-* **Entorno:** Python 3.10 o superior.
-* **Estándar:** Código adherido a la norma `flakes`.
-* **Robustez:** Manejo de excepciones obligatorio para evitar caídas del sistema.
-* **Claridad:** Uso de **Type Hints** en todas las firmas y retornos de funciones.
-* **Estructura:** Un archivo por ejercicio en su carpeta correspondiente.
-* **Enfoque:** Priorizar patrones funcionales claros sobre algoritmos complejos.
-
----
-
-### Kit de Herramientas (Permitido vs. Prohibido)
-
-#### Objetos Sagrados (Permitidos)
-* `functools`: El artefacto principal para decoradores y reducción.
-* `typing`: Para definir la naturaleza de tus datos.
-* `operator` e `itertools`: Para operaciones y patrones de iteración avanzados.
-* Funciones built-in: `lambda`, `map`, `filter`, `sorted`, `callable`.
-
-#### Magia Oscura (Prohibida)
-* **Librerías externas:** Nada de `pip install`.
-* **I/O de Archivos:** Todo debe ser procesamiento en memoria.
-* **Variables Globales:** Prohibidas; se busca la pureza funcional.
-* **Funciones Prohibidas:** No uses `eval()` ni `exec()`.
+* **Environment:** Python 3.10 or higher.
+* **Standard:** Code adhering to the `flakes` norm.
+* **Robustness:** Exception handling is mandatory to prevent system crashes.
+* **Clarity:** Use of **Type Hints** in all function signatures and return types.
+* **Structure:** One file per exercise in its corresponding folder.
+* **Focus:** Prioritize clear functional patterns over complex algorithms.
 
 ---
 
-### Los 5 Reinos del Conocimiento
+### Toolkit (Allowed vs. Forbidden)
 
-| Desafío | Archivo | Concepto Maestro | Dificultad |
+#### Sacred Objects (Allowed)
+* `functools`: The primary artifact for decorators and reduction.
+* `typing`: For defining the nature of your data.
+* `operator` and `itertools`: For advanced operations and iteration patterns.
+* Built-in functions: `lambda`, `map`, `filter`, `sorted`, `callable`.
+
+#### Dark Magic (Forbidden)
+* **External libraries:** No `pip install`.
+* **File I/O:** Everything must be in-memory processing.
+* **Global Variables:** Forbidden; functional purity is required.
+* **Forbidden Functions:** Do not use `eval()` or `exec()`.
+
+---
+
+### The 5 Kingdoms of Knowledge
+
+| Challenge | File | Master Concept | Difficulty |
 | :--- | :--- | :--- | :---: |
-| **Ex 0** | `lambda_spells.py` | Funciones anónimas y ordenamiento de datos. | 🟢 3/10 |
-| **Ex 1** | `higher_magic.py` | Funciones de orden superior (recibir/retornar funciones). | 🟡 5/10 |
-| **Ex 2** | `scope_mysteries.py` | Ámbito léxico, clausuras y persistencia (`nonlocal`). | 🟠 6/10 |
-| **Ex 3** | `functools_artifacts.py` | `reduce`, `partial`, `lru_cache` y `singledispatch`. | 🔴 8/10 |
-| **Ex 4** | `decorator_mastery.py` | Decoradores complejos, `@wraps` y métodos estáticos. | 🟣 9/10 |
+| **Ex 0** | `lambda_spells.py` | Anonymous functions and data sorting. | 🟢 3/10 |
+| **Ex 1** | `higher_magic.py` | Higher-order functions (receiving/returning functions). | 🟡 5/10 |
+| **Ex 2** | `scope_mysteries.py` | Lexical scope, closures and persistence (`nonlocal`). | 🟠 6/10 |
+| **Ex 3** | `functools_artifacts.py` | `reduce`, `partial`, `lru_cache` and `singledispatch`. | 🔴 8/10 |
+| **Ex 4** | `decorator_mastery.py` | Complex decorators, `@wraps` and static methods. | 🟣 9/10 |
 
 ---
 
-### Resumen de los Ejercicios
+### Exercise Overview
 
-####  Lambda Sanctum
-Domina las funciones de una sola línea. Aprenderás a ordenar artefactos por poder, filtrar magos por nivel y transformar listas de hechizos usando `map` y `filter`.
+#### Lambda Sanctum
+Master single-line functions. You will learn to sort artifacts by power, filter mages by level, and transform spell lists using `map` and `filter`.
 
 #### 1. Higher Realm
-Aquí las funciones son "ciudadanos de primera clase". Crearás combinadores de hechizos que unen dos efectos en uno y amplificadores que multiplican los resultados de otros hechizos.
+Here functions are "first-class citizens". You will create spell combiners that merge two effects into one and amplifiers that multiply the results of other spells.
 
 #### 2. Memory Depths
-Explora las clausuras. Crearás funciones que "recuerdan" variables incluso después de que su entorno original haya desaparecido, permitiendo llevar contadores y memorias privadas sin usar globales.
+Explore closures. You will create functions that "remember" variables even after their original environment has disappeared, enabling private counters and memories without using globals.
 
 #### 3. Ancient Library
-Usa el módulo `functools` para reducir listas de poder a un solo valor (`reduce`), pre-configurar hechizos con argumentos fijos (`partial`) y optimizar el rendimiento con caché.
+Use the `functools` module to reduce power lists to a single value (`reduce`), pre-configure spells with fixed arguments (`partial`), and optimize performance with caching.
 
 #### 4. Master's Tower
-El reto final. Crearás decoradores que miden el tiempo de ejecución, validan niveles de poder automáticamente y reintentan hechizos que fallan debido a errores mágicos.
+The final challenge. You will create decorators that measure execution time, automatically validate power levels, and retry spells that fail due to magical errors.
 
 ---
 
-### Guía de Supervivencia en el Peer-Review
+### Peer-Review Survival Guide
 
-Durante la evaluación, no basta con que el código funcione. Debes ser capaz de explicar:
-1.  **¿Por qué usar `lambda`?** Para operaciones rápidas donde definir una función con `def` sería excesivo.
-2.  **¿Qué es una clausura?** Una función que mantiene acceso al entorno donde fue creada.
-3.  **¿Para qué sirve `@wraps`?** Para que tus decoradores no "borren" el nombre y la documentación de la función original.
+During evaluation, it is not enough for the code to work. You must be able to explain:
+
+1. **Why use `lambda`?** For quick operations where defining a function with `def` would be excessive.
+2. **What is a closure?** A function that retains access to the environment where it was created.
+3. **What does `@wraps` do?** It prevents your decorators from "erasing" the original function's name and documentation.
 
 ---
 
-### Pruebas
-Puedes usar el `tools/data_generator.py` incluido para generar datos de prueba temáticos (artefactos, magos y hechizos) y verificar tus implementaciones.
+### Testing
+
+You can use the included `tools/data_generator.py` to generate themed test data (artifacts, mages, and spells) and verify your implementations.
